@@ -16,12 +16,15 @@ Warn, and Error) fail the build. You can also specify a pylintrc file.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-pylint-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-pylint-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-pylint-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-pylint-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-pylint/badges/version.svg)](https://anaconda.org/conda-forge/pytest-pylint)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-pylint/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-pylint)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--pylint-green.svg)](https://anaconda.org/conda-forge/pytest-pylint) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-pylint.svg)](https://anaconda.org/conda-forge/pytest-pylint) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-pylint.svg)](https://anaconda.org/conda-forge/pytest-pylint) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-pylint.svg)](https://anaconda.org/conda-forge/pytest-pylint) |
 
 Installing pytest-pylint
 ========================
