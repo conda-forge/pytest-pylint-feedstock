@@ -20,12 +20,13 @@ requirements:
   build:
     - python
     - pip
-
+    - pytest-runner
   run:
     - python
     - six
     - pylint >=1.4.5
     - pytest >=2.7
+    - pytest-runner
 
 test:
   imports:
