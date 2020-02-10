@@ -1,6 +1,6 @@
 {% set name = "pytest-pylint" %}
-{% set version = "0.14.1" %}
-{% set sha256 = "8c38ea779e540e27ec4378b0820d906006e09f4ac834defbd886abbf57c7d2ec" %}
+{% set version = "0.15.0" %}
+{% set sha256 = "3996a55ba66ce8ddf150754d8549567a4b067d63fa4513fdfd3325c7553c8075" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
