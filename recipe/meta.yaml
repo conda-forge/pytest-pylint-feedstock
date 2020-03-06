@@ -1,6 +1,6 @@
 {% set name = "pytest-pylint" %}
-{% set version = "0.14.1" %}
-{% set sha256 = "8c38ea779e540e27ec4378b0820d906006e09f4ac834defbd886abbf57c7d2ec" %}
+{% set version = "0.15.1" %}
+{% set sha256 = "dd3e232da5703e7fd14c610247dbe25dfd8e3278069b4b8bcf9778ba06b77569" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'pytest plugin for running pylint against your codebase'
+  summary: pytest plugin for running pylint against your codebase
   description: |
     Run pylint with pytest and have configurable rule types (i.e. Convention, 
     Warn, and Error) fail the build. You can also specify a pylintrc file.
