@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -24,9 +24,10 @@ requirements:
   run:
     - python
     - six
-    - pylint >=1.4.5
-    - pytest >=2.7
+    - pylint >=2.3.0
+    - pytest >=5.4
     - pytest-runner
+    - toml >=0.7.1
 
 test:
   imports:
