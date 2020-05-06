@@ -1,6 +1,6 @@
 {% set name = "pytest-pylint" %}
-{% set version = "0.16.1" %}
-{% set sha256 = "df475b4758898f10d7143b249bdc2a2e8d078fdb0e85ea326d3d2579ee029386" %}
+{% set version = "0.17.0" %}
+{% set sha256 = "b0c177d63f6e3f5b82fa2720a6570dd2ecff1616c26ed6d02d0cbf75fd98ddf9" %}
 
 package:
   name: {{ name|lower }}
