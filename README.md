@@ -5,9 +5,13 @@ Home: https://github.com/carsongee/pytest-pylint
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-pylint-feedstock/blob/master/LICENSE.txt)
 
 Summary: pytest plugin for running pylint against your codebase
+
+Development: https://github.com/carsongee/pytest-pylint
+
+Documentation: https://github.com/carsongee/pytest-pylint
 
 Run pylint with pytest and have configurable rule types (i.e. Convention,
 Warn, and Error) fail the build. You can also specify a pylintrc file.
