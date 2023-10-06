@@ -1,6 +1,6 @@
 {% set name = "pytest-pylint" %}
-{% set version = "0.18.0" %}
-{% set sha256 = "790c7a8019fab08e59bd3812db1657a01995a975af8b1c6ce95b9aa39d61da27" %}
+{% set version = "0.21.0" %}
+{% set sha256 = "88764b8e1d5cfa18809248e0ccc2fc05035f08c35f0b0222ddcfea1c3c4e553e" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - pytest-runner
