@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
   run:
-    - python
+    - python >=3.6
     - six
     - pylint >=2.3.0
     - pytest >=5.4
